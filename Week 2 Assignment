@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Lists, Images, Tables & Forms</title>
+    </head>
+    <Body>
+        <h1>HTML Lists</h1>
+        <h3>Orded Lists</h3>
+        <ol type="i">
+            <li>Facial Rejuvination</li>
+            <li>Body Contouring</li>
+            <li>Hair & Skin tag Removal</li>
+            <li>Lipolysis</li>
+            <li>Massages</li>
+        </ol>
+        </dl>
+        <h1>HTML Images</h1>
+        <img src="Facial.jpg"alt="image of face" width="350" height="550">
+        <h1>HTML Tables</h1>
+        <table border="1">
+            <caption>Client Information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contacts</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Date</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lerato Matsekoleng</td>
+                    <td>+27767022079</td>
+                    <td>Leratomatsekoleng@gmail.com</td>
+                    <td>442 Khumalo Street Mamelodi</td>
+                    <td> 17 March 2025</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Amanda Ngcobo</td>
+                    <td>+27767022079</td>
+                    <td>Amandie952@gmail.com</td>
+                    <td>143 Mokhehle Street Tembisa</td>
+                    <td>18 March 2025</td>
+                </tr>
+                <tr>
+                    <td>Precious Maneatja</td>
+                    <td>+27725534292</td>
+                    <td>Preciousmaneatja@gmail.com</td>
+                    <td> 122 Middle Cresent Pretoria West</td>
+                    <td>19 March 2025</td>
+                </tr>
+                <tr>
+                    <td>Jessica Seboni</td>
+                    <td>+27619497414</td>
+                    <td>Jessicaseboni@gmail.com</td>
+                    <td>32 Rekgonne Street Soshanguve</td>
+                    <td>20 March 2025</td>
+                </tr>
+                <tr>
+                    <td>Amukelani Ngobeni</td>
+                    <td>+27659245219</td>
+                    <td>Amukelaningobeni@gmail.com</td>
+                    <td>23 Visagie Street Pretoria Central</td>
+                    <td>20 March 2025</td>
+
+                </tr>
+            </tbody>
+        </table>
+        <h1>HTML Forms</h1>
+        <form action="" method="">
+            <label for="Client Name & Surname">Client Name & Surname:</label>
+            <input type="text" id="Client_Name" Name="Client_Name" required>
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <input type= "radio" id="Gender"Name="Gender" value="Female"> Female
+            <input type= "radio" id="Gender"Name="Gender" value="Male"> Male
+            <br><br>
+            <Label for="Skin Condition">Skin Condition</Label>
+            <input type="checkbox" name="Skin Condition" value="Allergies">Allergies
+            <input type="checkbox" name="Skin Condition" value="Acne">Acne
+            <input type="checkbox" name="Skin Condition" value="Sensitive Skin">Sensitive Skin
+            <input type="checkbox" name="Skin Condition" value="Hyperpigmentation">Hyperpigmentation
+            <input type="checkbox" name="Skin Condition" value="None">None
+            <br><br>
+            <label for="Area">Area:</label>
+            <select name="Area" id="Area">
+                <option>--Select Area--</option>
+                <option value="Pretoria">Pretoria</option>
+                <option value="Centurion">Pretoria</option>
+                <option value="Sandton">Pretoria</option> 
+                <option value="Vaal">Pretoria</option>
+                <br><br>
+            
+            </select>
+            <label for="description">Describe what makes you comfortable/Uncomfortable</label>
+            <textarea name="description" id="description"></textarea>
+
+            <br><br>
+            <button>Register</button>
+            <input type="button" value="Cancel">
+        
+        </form>
+    </Body>
+</html>
